@@ -1,0 +1,39 @@
+class6
+
+What is Drop Down?
+
+1. Single Select --> one option
+2.multiple select--> more that one
+
+Two methods to handel drop downns:
+1.Click on the drop Down and then Select the option
+2.Use Select class
+Condition:
+<select> tag is there in the drop down
+
+select class is a class available to us in selenium which has
+differnt methods that help us to handel the drop down
+
+Steps to use select class:
+1 to find the web element"dropdown"having the select class
+2.create an object of select class(web element(which has a select tag)
+3.use any method provided by select class to select the option you desire
+  a.   .Byvalue() --> parameters the value attribute "Value" in <option>tag
+  b.   .Byindex() --> parameter the index of the option that you want to select
+  c.  .ByVisibleText-->parameter the text in the tag <option>which we want to select
+
+4. .getOption()--> no parameter returns us all the tags<options>which are child of<select tag>
+return type is <List>WebElements
+
+Multiple select drop down
+
+1. isMultiple()-->if the drop down is multiselect or not
+additional methods:
+
+a.deselectbyindex()
+b.deselectbyvalue()
+c.deselectbyvisibletext()
+d.deselectAll()
+exception:
+
+no such element exception-->the web element you are looking for is not there on the page

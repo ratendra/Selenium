@@ -1,0 +1,49 @@
+*******************Selenium Class03**********************
+What are webElements?
+What are loocators?
+
+
+***********Xpath************
+why do we need Xpath Locator?
+--developers may not have provided other locators in the html
+--by using xpath we can identify those webelements easily
+
+What is an xpath?
+Xpath is just like a query Language that help u to identify elements
+
+
+Types of Xpath
+1)Absolute Xpath
+--> Starts with a strating node in html
+it start with single slash
+(/)
+
+e.g /html/body/div/div[2]/div/div/div/div/div[2]/div/div/form/div[2]/button
+<html>
+     <head>
+     </head>
+     <body>
+           <div>
+               <a>dagfk</a>
+           </div>
+           <div>
+                <img></img>
+            </div>
+            <div>
+                <img2></img2>
+            </div>
+</body>
+</html>
+
+/html/body/div1/img-->absolute Xpath
+
+/html/body/div[3]/img
+
+2)Relative Xpath
+
+//tagname[@attribute='attribute Value']
+
+Example:
+//input[@type='password']
+hey can you find me the tag input who has an attribute "Type" with the
+attribute value "Password"

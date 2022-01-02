@@ -1,0 +1,35 @@
+Sellenium class05
+
+--------------Radio Button---------------
+we can select one radio button at a time
+
+isDisplayed-->boolean
+checks if the particular webElement is displayed/present on the page or not
+
+isEnabled()-->boolean
+checks if you can select that radio btn or not
+
+isSelected()-->boolean
+it tells weather the particular btn is selected or not
+
+
+***********************Drop Downs****************************
+there are two types of drop downs
+1.Single Select
+2.Multi Select
+
+1 Single Select
+Method 1:
+click on the drop down
+and then click on the option
+
+Method 2:
+Using a Select class
+   there is  acondition in order to use select class
+   we need to make sure that our drop down has a select Tag.
+
+   if we use select class we can select in three different methods
+   1.By index
+   2.By visible text
+   3.By value
+

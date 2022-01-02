@@ -1,0 +1,12 @@
+Frames:
+identify the Iframe:
+1.right click and if you see view frame source it means it is an iframe
+2.The iframe and emebedded in the webpage under the tag<iframe>,so search for "//iframe"and it will show you all
+iframe available
+Example:
+<html>
+<Body>
+
+</Body>
+</html>
+
